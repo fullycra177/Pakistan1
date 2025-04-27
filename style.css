@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.neonText {
+  margin-top: 50px;
+  font-size: 2.5rem;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  color: #0ff;
+}
+
+.container {
+  margin-top: 40px;
+  background-color: #111;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 0 15px #0ff3;
+}
+
+input {
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0ff;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 5px;
+}
+
+#checkBtn {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { background-color: #0ff; }
+  50% { background-color: #0cc; }
+}
+
+button:hover {
+  background-color: #0cc;
+}
+
+.clearBtn {
+  background-color: #ff4444;
+  color: #fff;
+}
+
+.copyBtn {
+  margin-top: 10px;
+  background-color: #ffcc00;
+  color: #000;
+}
+
+.whatsappShare {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #25D366;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 30px;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.description ul {
+  padding-left: 20px;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.footer a {
+  color: #0ff;
+  text-decoration: none;
+}
+
+.card {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px #0ff5;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.card p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+strong {
+  color: #0ff;
+}
